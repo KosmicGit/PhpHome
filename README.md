@@ -5,7 +5,7 @@ Proyecto de domótica implementado con arduino, php y javascript
 
 ## Tecnologias
 - PHP 7.4
-- [![C++](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+- C++
 - JavaScript
 - Prueba
 
