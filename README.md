@@ -3,16 +3,13 @@
 Proyecto 2ºASIR.
 Proyecto de domótica implementado con arduino, php y javascript
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+## Tecnologias
+- PHP 7.4
+- C++
+- JavaScript
+- Prueba
 
 ## Usage
-
 ```python
 import foobar
 
