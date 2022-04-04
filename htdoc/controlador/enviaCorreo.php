@@ -1,0 +1,27 @@
+<?php
+
+ini_set("session.cookie_lifetime","7200");
+ini_set("session.gc_maxlifetime","7200");
+session_start();
+include("/var/www/html/conexion.php");
+
+$nombre_fichero = "../txt/idUsuario.txt";
+$archivo = fopen($nombre_fichero, "r");
+$contenido = fread($archivo, filesize($nombre_fichero));
+fclose($archivo);
+
+$query1 = "SELECT * FROM usuario WHERE id_usuario='".$contenido."'";
+
+$resul = $mysqli->query($query1);
+
+$fila = $resul->fetch_assoc();
+
+$fecha = date("Y-m-d H:i:s");
+$id_usuario=$contenido;
+
+$query2 = "INSERT INTO historial(id_usuario, id_comando, fecha)VALUES ('$id_usuario',5,'$fecha')";
+$mysqli->query($query2);
+
+system("/bin/sh /var/www/html/sh/mailing.sh " .$fila['correo']);
+
+?>
