@@ -1,5 +1,6 @@
 # PhpHome
-Foobar is a Python library for dealing with word pluralization.
+Proyecto 2ºASIR.
+Proyecto de domótica implementado con arduino, php y javascript
 
 ## Installation
 
