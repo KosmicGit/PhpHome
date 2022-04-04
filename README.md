@@ -1,4 +1,5 @@
 # PhpHome
+(Descripción en edición)
 Proyecto 2ºASIR.
 Proyecto de domótica implementado con arduino, php y javascript
 
