@@ -4,10 +4,8 @@ Proyecto 2ºASIR.
 Proyecto de domótica implementado con arduino, php y javascript
 
 ## Tecnologias
-- PHP 7.4
-- C++
-- JavaScript
-- Prueba
+- [![PHP](https://badgen.net/badge/icon/PHP/purple?icon=php&label)](https://www.php.net/)
+- [![JS](https://badges.aleen42.com/src/javascript.svg)](https://www.javascript.com/)
 
 ## Hardware
 - Arduino
