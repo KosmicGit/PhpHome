@@ -18,7 +18,7 @@
   	<body> 
 	<div class="view">
 	<div class="header-wrapper">
-	<h1> Domotica Home </h1>
+	<h1> Stivi y Pepillo Home Domotica </h1>
 	</div>
 
 	<div class="group-wrapper">
