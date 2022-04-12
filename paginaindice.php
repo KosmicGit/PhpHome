@@ -80,7 +80,7 @@
      <h4>(Parametros)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaparametros.php'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginaparametros.php'">
      </td>                                                                                  
      <td>
 	<div class='red-circle'>
@@ -109,7 +109,7 @@
      <h4>(Sensores)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginasensores.php'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginasensores.php'">
      </td>                                                                                
      <td>
 	<div class='red-circle'>
@@ -138,7 +138,7 @@
      <h4>(Electrodomestico)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaelectrodomesticos.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginaelectrodomesticos.html'">
      </td>                                                                                  
      <td>
 	<div class='red-circle'>
@@ -167,7 +167,7 @@
      <h4>(Otros usos)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaotrosusos.php'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginaotrosusos.php'">
      </td>                                                                                  
 
      <td>
