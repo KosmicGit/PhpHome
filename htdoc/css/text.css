@@ -1,0 +1,182 @@
+ html { height:100%; }
+ body {
+ height: 100%;
+ margin: 0;
+ font-family: helvetica, sans-serif;
+ -webkit-text-size-adjust: none;
+ }
+
+body {
+ -webkit-background-size: 100% 21px;
+ background-color: #444444;
+ background-image:
+ -webkit-gradient(linear, left top, right top,
+ color-stop(.9, transparent),
+ color-stop(.3, rgba(100,100,100,.6)) );
+ -webkit-background-size: 70px;
+ }
+
+.view {
+ min-height: 100%;
+ overflow: auto;
+ }
+
+.header-wrapper {
+ height: 44px;
+ font-weight: italic;
+ text-shadow: rgba(0,0,0,7) 0 -1px 0;
+ border-top: solid 1px rgba(255,255,255,0.6);
+ border-bottom: solid 1px rgba(0,0,0,0.6);
+ color: #fff;
+ background-color: #0C9Aff;
+ background-image:
+ -webkit-gradient(linear, left top, left bottom,
+ from(rgba(255,255,255,.4)),
+ to(rgba(255,255,255,.05)) ),
+ -webkit-gradient(linear, left top, left bottom,
+ from(transparent),
+ to(rgba(0,0,64,.1)) );
+ background-repeat: no-repeat;
+ background-position: top left, bottom left;
+ -webkit-background-size: 100% 21px, 100% 22px;
+ -webkit-box-sizing: border-box;
+ }
+
+.header-wrapper h1 {
+ text-align: center;
+ font-size: 20px;
+ line-height: 44px;
+ margin: 0;
+ }
+
+.group-wrapper {
+ margin: 9px;
+ }
+
+.group-wrapper h2 {
+ color: #ffffff;
+ font-size: 17px;
+ line-height: 0.8;
+ font-weight: bold;
+ text-shadow: #000 0 1px 0;
+ margin: 20px 10px 12px;
+ }
+
+.group-wrapper h3 {
+ color: #ffffff;
+ font-size: 12px;
+ line-height: 1;
+ font-weight: bold;
+ text-shadow: #000 0 1px 0;
+ margin: 20px 10px 12px;
+ }
+
+.group-wrapper h4 {
+ color: #ffffff;
+ font-size: 14px;
+ line-height: 1;
+ font-weight: bold;
+ text-shadow: #000000 1px 1px 3px;
+ margin: 5px 5px 5px;
+ }
+
+.group-wrapper table {
+ background-color: #3768f7;
+ background-image:
+ -webkit-gradient(linear, left top, right top,
+ color-stop(.9, transparent),
+ color-stop(.3, rgba(100,100,100,.6)) );
+ -webkit-background-size: 390px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ border-radius: 10px;
+ font-size: 17px;
+ line-height: 20px;
+ margin: 9px 0 20px;
+ border: solid 1px #ffffff;
+ padding: 11px 3px 12px 3px;
+ margin-left:auto;
+ margin-right:auto;
+ -moz-transform :scale(1);
+ -moz-transform-origin: 0 0;
+ }
+
+.red-circle {
+ display: block;
+ height: 23px;
+ width: 23px;
+ background-color: #ff0000;
+ -moz-border-radius: 11px;
+ -webkit-border-radius: 11px;
+ -khtml-border-radius: 11px;
+ border-radius: 11px;
+ margin-left: 1px;
+ background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(200, 40, 20, 0.8)), to(rgba(255, 0, 2, .9)));@
+ border: 2px solid #ccc;
+ -webkit-box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px;
+ -moz-box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px;
+ box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px;
+ }
+
+.blackie-circle {
+ display: block;
+ height: 23px;
+ width: 23px;
+ background-color: #400;
+ -moz-border-radius: 11px;
+ -webkit-border-radius: 11px;
+ -khtml-border-radius: 11px;
+ border-radius: 11px;
+ margin-left: 1px;
+ -webkit-box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px;
+ -moz-box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px; 
+ box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px; 
+ }
+
+.green-circle {
+ display: block;
+ height: 23px;
+ width: 23px;
+ background-color: #00ff00;
+ -moz-border-radius: 11px;
+ -webkit-border-radius: 11px;
+ -khtml-border-radius: 11px;
+ border-radius: 11px;
+ margin-left: 1px;
+ background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(46, 184, 0, 0.8)), to(rgba(148, 255, 112, .9)));@
+ border: 2px solid #ccc;
+ -webkit-box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px;
+ -moz-box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px; 
+ box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px; 
+ }
+
+.black-circle {
+ display: block;
+ height: 23px;
+ width: 23px;
+ background-color: #040;
+ -moz-border-radius: 11px;
+ -webkit-border-radius: 11px;
+ -khtml-border-radius: 11px;
+ border-radius: 11px;
+ margin-left: 1px;
+ -webkit-box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px;
+ -moz-box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px; 
+ box-shadow: rgba(11, 140, 27, 0.5) 0px 10px 16px; 
+ }
+
+ .glare {
+ position: relative;
+ top: 1;
+ left: 5px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ border-radius: 10px;
+ height: 1px;
+ width: 13px;
+ padding: 5px 0;
+ background-color: rgba(200, 200, 200, 0.25);
+ background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0)));
+ }

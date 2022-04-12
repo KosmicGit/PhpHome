@@ -1,10 +1,14 @@
 <?php
+	
+	ini_set("session.cookie_lifetime","7200");
+	ini_set("session.gc_maxlifetime","7200");
+	session_start(); 
 	include("conexion.php");
-	include("serial.php");
+
 ?>
 <!DOCTYPE HTML>
 <head>
-	<title>Stivi y Pepillo Home Domotica</title>
+	<title>Home Domotica</title>
 	<meta name="description" content="Accionamientos y sensores">                                                      
             <meta http-equiv="refresh" content="(refreshPage); url=/">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -25,7 +29,7 @@
         <FORM>
        
         <h4 align="center">
-        <input type=button onClick="location.href='index.php'" value='Salir'>
+        <input type=button onClick="location.href='///var/www/html/htmlintro.html'" value='Salir'>
 	</h4>
 
 
@@ -454,11 +458,9 @@
 	</FORM>
 	<tr>
         <h3 align="center">
-		Proyecto fin de curso ASIR 
-	<br>
-		&copy; Autores - Esteban Vicario y Jose Garcia
+	&copy; Autor - Esteban Vicario 
 	<br> 
-	Spain - Abril - 2022 - (rev)
+	Spain - Septiembre - 2019 - (rev)
 	</h3>
 	</tr>
 	</div>

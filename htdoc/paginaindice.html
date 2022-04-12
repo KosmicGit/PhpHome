@@ -1,10 +1,14 @@
 <?php
+	
+	ini_set("session.cookie_lifetime","7200");
+	ini_set("session.gc_maxlifetime","7200");
+	session_start(); 
 	include("conexion.php");
 
 ?>
 <!DOCTYPE HTML>
 <head>
-	<title>Domotica Esteban y Jose </title>
+	<title>Stivi Home Domotica</title>
 	<meta name="description" content="Accionamientos y sensores">                                                      
             <meta http-equiv="refresh" content="(refreshPage); url=/">
 		<meta name="apple-mobile-web-app-capable" content="yes">

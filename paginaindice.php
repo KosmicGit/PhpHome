@@ -1,14 +1,10 @@
 <?php
-	
-	ini_set("session.cookie_lifetime","7200");
-	ini_set("session.gc_maxlifetime","7200");
-	session_start(); 
 	include("conexion.php");
 
 ?>
 <!DOCTYPE HTML>
 <head>
-	<title>Stivi Home Domotica</title>
+	<title>Stivi y Pepillo Home Domotica</title>
 	<meta name="description" content="Accionamientos y sensores">                                                      
             <meta http-equiv="refresh" content="(refreshPage); url=/">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -22,14 +18,14 @@
   	<body> 
 	<div class="view">
 	<div class="header-wrapper">
-	<h1> Domotica Home </h1>
+	<h1> Stivi y Pepillo Home Domotica </h1>
 	</div>
 
 	<div class="group-wrapper">
         <FORM>
        
         <h4 align="center">
-        <input type=button onClick="location.href='///var/www/html/htmlintro.html'" value='Salir'>
+        <input type=button onClick="location.href='///var/www/html/index.php'" value='Salir'>
 	</h4>
 
 
@@ -55,7 +51,7 @@
      <h4>(Luces)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginageneral.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginageneral.php'">
      </td>                                                                                  
         <td>
 	<div class='red-circle'>
@@ -84,7 +80,7 @@
      <h4>(Parametros)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaparametros.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginaparametros.php'">
      </td>                                                                                  
      <td>
 	<div class='red-circle'>
@@ -113,7 +109,7 @@
      <h4>(Sensores)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginasensores.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginasensores.php'">
      </td>                                                                                
      <td>
 	<div class='red-circle'>
@@ -142,7 +138,7 @@
      <h4>(Electrodomestico)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaelectrodomesticos.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginaelectrodomesticos.html'">
      </td>                                                                                  
      <td>
 	<div class='red-circle'>
@@ -171,7 +167,7 @@
      <h4>(Otros usos)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaotrosusos.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginaotrosusos.php'">
      </td>                                                                                  
 
      <td>
@@ -202,9 +198,11 @@
 	</FORM>
 	<tr>
         <h3 align="center">
-	&copy; Autor - Esteban Vicario 
+		Proyecto fin de curso ASIR 
+	<br>
+		&copy; Autores - Esteban Vicario y Jose Garcia
 	<br> 
-	Spain - Septiembre - 2019 - (rev)
+	Spain - Abril - 2022 - (rev)
 	</h3>
 	</tr>
 	</div>
