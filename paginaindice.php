@@ -25,7 +25,7 @@
         <FORM>
        
         <h4 align="center">
-        <input type=button onClick="location.href='///var/www/html/htmlintro.html'" value='Salir'>
+        <input type=button onClick="location.href='///var/www/html/index.php'" value='Salir'>
 	</h4>
 
 
@@ -51,7 +51,7 @@
      <h4>(Luces)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginageneral.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='paginageneral.php'">
      </td>                                                                                  
         <td>
 	<div class='red-circle'>
@@ -80,7 +80,7 @@
      <h4>(Parametros)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaparametros.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaparametros.php'">
      </td>                                                                                  
      <td>
 	<div class='red-circle'>
@@ -109,7 +109,7 @@
      <h4>(Sensores)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginasensores.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginasensores.php'">
      </td>                                                                                
      <td>
 	<div class='red-circle'>
@@ -167,7 +167,7 @@
      <h4>(Otros usos)</h4>
      </td>
      <td>
-     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaotrosusos.html'">
+     <INPUT TYPE="button" VALUE="Entrar" onClick="parent.location='///var/www/html/paginaotrosusos.php'">
      </td>                                                                                  
 
      <td>
