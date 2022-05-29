@@ -81,9 +81,6 @@ if (!isset( $_COOKIE['user'])){
                 <?php
                   echo "<h4>Humedad: $retorno[0] % </h4>";
                 ?>
-              </p>
-              <li>Use <code>Left</code> and <code>Right</code> arrow keys </li>
-            </ul>
             </p>
             <p style="color : #737373; font-family : Verdana, Arial, Helvetica; font-size : 8pt; text-align : center;">Página principal del sistema de gestión domótico. Proyecto realizado por Esteban Vicario y José García</p>
             <p style="color : #737373; font-family : Verdana, Arial, Helvetica; font-size : 8pt; text-align : center;">2021 ©</p>
@@ -124,15 +121,13 @@ if (!isset( $_COOKIE['user'])){
             </button>
           </div>
           <p style="color : #737373; font-family : Verdana, Arial, Helvetica; font-size : 8pt; text-align : center;">Página principal del sistema de gestión domótico. Proyecto realizado por Esteban Vicario y José García</p>
-            <p style="color : #737373; font-family : Verdana, Arial, Helvetica; font-size : 8pt; text-align : center;">2021 ©</p>
+          <p style="color : #737373; font-family : Verdana, Arial, Helvetica; font-size : 8pt; text-align : center;">2021 ©</p>
           </div>
         </div>
-        <!--tab-content-wrapper -->
       </div>
     </div>
   </div>
 </div>
-<!-- partial -->
-  <script  src="js/general.js"></script>
+<script  src="js/general.js"></script>
 </body>
 </html>
