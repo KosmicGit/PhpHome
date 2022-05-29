@@ -51,19 +51,19 @@ if (!isset( $_COOKIE['user'])){
           <div class="tab-content tab-active" id="tab-content-01" hidden tabindex="0" role="tabpanel" aria-labelledby="tab-01">
             <?php
               $fecha = date("H");
-              if ($fecha > 14 && $fecha < 21){
+              if ($fecha >= 14 && $fecha < 21){
                 echo "<h2>Buenas tardes...</h2>";
                 echo "<p>Hoy es ".date('d')." de ".date('F')."</p>";
                 echo "<center>";
                 echo "<img src='images/day.jpg' class='marco' height='250px'>";
                 echo "</center>";
-              } else if ($fecha < 14){
+              } else if ($fecha >= 5 && $fecha < 14){
                 echo "<h2>Buenos dias...</h2>";
                 echo "<p>Hoy es ".date('d')." de ".date('F')."</p>";
                 echo "<center>";
                 echo "<img src='images/morning.jpg' class='marco' height='250px'>";
                 echo "</center>";
-              } else if ($fecha > 21){
+              } else if ($fecha >= 21){
                 echo "<h2>Buenas noches...</h2>";
                 echo "<p>Hoy es ".date('d')." de ".date('F')."</p>";
                 echo "<center>";
