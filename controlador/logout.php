@@ -10,7 +10,7 @@ $mysqli->query($query2);
 session_destroy();
 if (isset($_COOKIE['user'])) {
     unset($_COOKIE['user']);
-    setcookie('user', '', time() - 3600, '/'); // empty value and old timestamp
+    setcookie('user', '', time() - 3600, '/');
 }
 sleep(2);
 header("Location: ../index.php");
