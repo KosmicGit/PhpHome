@@ -1,4 +1,14 @@
 <?php
+    if (!isset( $_COOKIE['user'])){
+        header('Location: ./index.php');
+        die();
+    } else {
+        if (empty($_COOKIE['user'])){
+        header('Location: ./index.php');
+        die();
+        }
+    }
+    
 	include("conexion.php");
 	include("variables.php"); 
 ?>
