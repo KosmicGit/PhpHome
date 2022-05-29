@@ -15,5 +15,4 @@ if (isset($_COOKIE['user'])) {
 sleep(2);
 header("Location: ../index.php");
 die();
-//echo "<script languaje='javascript' type='text/javascript'>window.location.replace('../index.php');</script>";
 ?>
